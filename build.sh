@@ -4,7 +4,7 @@ ZIPNAME="nAa-ginkgo-$(date '+%Y%m%d-%H%M').zip"
 
 if ! [ -d "$(pwd)/samsoe" ]; then
 echo "Samsoe clang not found! Cloning..."
-if ! git clone -q https://github.com/avinakefin/samsoe --depth=1 --single-branch ~/samsoe; then
+if ! git clone -q https://github.com/avinakefin/Samsoe --depth=1 --single-branch ~/samsoe; then
 echo "Cloning failed! Aborting..."
 exit 1
 fi
